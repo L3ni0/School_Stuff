@@ -1,0 +1,3 @@
+SELECT nazwisko;
+FROM C INNER JOIN D ON C.D# =D.D#;
+WHERE MASA < 17 AND NAZWA = 'Stworzeń'
