@@ -1,0 +1,13 @@
+zadanie 1.3
+
+funckja
+   jesli v jest sąsiadem w zwroc wynik              (1)
+
+   w przeciwnym wypadku
+        dla kazdego sasiada                         (b)
+            uruchom fukcje(s,w) pomniejszonego o v  (n-b)
+
+b - oznacza liczbe połączeń v i jest liczbą z zakresu [1,n]
+jeśli każdy jest sąsiadem każdego to złożoność wynosi 1
+w pesymistycznym przypadku wynosi (n) w momencie którym v by było połączone z każdym elementem
+prócz ostatniego elementu wtedy przejdziemy po każdym pojączeniu czyli n
