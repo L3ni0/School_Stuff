@@ -1,0 +1,7 @@
+f a b c d e t
+f a:9 d:9
+a c:1 b:9
+d c:3 e:6
+c t:7 e:2
+b c:4 t:6
+e t:8
