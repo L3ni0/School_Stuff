@@ -1,0 +1,17 @@
+{% block content%}
+
+<form action="" method="POST" enctype="multipart/form-data">
+  <p>Change frequency:</p>
+  <input type="text" name="frequency" />
+  <p>Change protocol:</p>
+  <input type="text" name="protocol" />
+  <p>turn on/off:</p>
+  <input type="text" name="turn" />
+  <input type="submit" value="submit" />
+</form>
+<p>actual data</p>
+<p>protocol : {{protocol}}</p>
+<p>frequency : {{frequency}}</p>
+<p>data name: {{name}}</p>
+<p>status: {{status}}</p>
+{% endblock %}
